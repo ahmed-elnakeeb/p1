@@ -1,10 +1,11 @@
-*{
+body,html{
     margin: 0;
     padding: 0;
+    cursor: url(img/sm.png) ,auto;
 }
 #top_bar{
     height: 90px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(60, 9, 143);;
     font-size: 15px;
 
 
@@ -20,31 +21,43 @@
     border-top: none;
     border-radius:9px ;
     font-size: 21px;
-
+    
 }
 #side_bar{
         margin-left: 45px;
         margin-top: 12px;
-        height: 600px;
+        height: 900px;
         width: 220px;
         position: fixed;
         z-index: 1;
     
-        background-color: rgb(255, 255, 255);
+        
         overflow-x: hidden;
         padding-top: 20px;
         border:  2px solid rgb(60, 9, 143);
         border-radius: 11px;
 }
 #main_bar{
-    height: 600px;
+    height: 900px;
     margin-left:300px ;
     border: 2px solid rgb(60, 9, 143); 
     border-radius:30px;
     margin-top: 30px;
     margin-right: 37px;
+    z-index: 1;
 
-
+}
+#lib_img{
+    margin: 12px 30px 0 75px;
+}
+#div{
+    width: 60px;
+    border: 2px solid rgb(112, 111, 114);
+    border-radius: 12px;
+    position: relative;
+    left: 500px;
+    margin-top: 5px;
+    padding-left: 15px;
 }
 .float_right{
     float: right;
@@ -63,4 +76,26 @@
     margin-top: 8px; 
     margin-left: 11px;
     height: 80px;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.vertical{
+    writing-mode: vertical-rl;
+    text-orientation:mixed ;
+}
+.span_boeder{
+    border: 1px solid black;
+    font-size: large;
+    padding: 20px 5px 15px 5px;
+    margin-left: 5px;
+    border-radius: 2px;
+    
+}
+.pointer{
+    cursor: pointer;
 }
