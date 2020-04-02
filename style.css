@@ -2,3 +2,65 @@
     margin: 0;
     padding: 0;
 }
+#top_bar{
+    height: 90px;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+
+
+}
+#img_home{
+    margin: 25px;
+}
+#nav{
+    height: 35px;
+    padding-top: 15px;
+    margin: 0 25px 5px 25px;
+    border: 2px solid rgb(60, 9, 143);
+    border-top: none;
+    border-radius:9px ;
+    font-size: 21px;
+
+}
+#side_bar{
+        margin-left: 45px;
+        margin-top: 12px;
+        height: 600px;
+        width: 220px;
+        position: fixed;
+        z-index: 1;
+    
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        padding-top: 20px;
+        border:  2px solid rgb(60, 9, 143);
+        border-radius: 11px;
+}
+#main_bar{
+    height: 600px;
+    margin-left:300px ;
+    border: 2px solid rgb(60, 9, 143); 
+    border-radius:30px;
+    margin-top: 30px;
+    margin-right: 37px;
+
+
+}
+.float_right{
+    float: right;
+}
+.float_left{ 
+    float: left;
+}
+.margin_rihgt{margin-right: 5px;}
+.margin_left{margin-left: 15px;}
+.margin_left2{margin-left: 22px;
+}
+.margin_left3{margin-left: 5px;}
+.clear_flt{clear: both;}
+.bold{font-weight: bold;}
+.sid_btn{
+    margin-top: 8px; 
+    margin-left: 11px;
+    height: 80px;
+}
